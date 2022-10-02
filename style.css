@@ -25,12 +25,26 @@ body {
     margin: 1em;
 }
 
+/* ------------------- Search Bar -------------------------- */
+
 .search {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 15px;
 
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 30px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 110%;
+    width: calc(100% - 60px);
 }
 
 button {
@@ -50,14 +64,18 @@ button:hover {
     background-color: #7c7c7c6b;
 }
 
-.search-bar {
-    border: none;
-    outline: none;
-    padding: 0.4em 1em;
-    border-radius: 30px;
-    background-color: #7c7c7c2b;
-    color: white;
-    font-family: inherit;
-    font-size: 110%;
-    width: calc(100% - 60px);
+/* ------------------- Output -------------------------- */
+
+.temp {
+    margin: 0.4em 0;
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+}
+
+.weather-description {
+    text-transform: capitalize;
+    margin: 10px;
 }
