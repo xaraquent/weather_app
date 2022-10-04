@@ -11,8 +11,9 @@ body {
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
     background-color: #222;
-    background-image: url("https://source.unsplash.com/2560x1440/?landscape");
     font-size: 120%;
+    background-size: cover;
+    background-position: center;
 }
 
 .card {
