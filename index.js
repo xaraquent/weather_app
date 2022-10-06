@@ -14,7 +14,7 @@ async function getWeather() {
     const { icon, description } = data.weather[0];
     const { temp, humidity } = data.main;
     const { speed } = data.wind;
-    const speedMeterPerSec = speed * 0.277777778;
+    const speedMeterPerSec = speed / 3.4;
 
     // --------------- Output data -------------------
 
